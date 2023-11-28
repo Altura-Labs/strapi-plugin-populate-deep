@@ -16,7 +16,7 @@ const getFullPopulateObject = (modelUid, maxDepth = 20, ignore) => {
     return true;
   }
 
-  if(maxDepth > process.env.MAX_POPULATE_DEPTH ) {
+  if (maxDepth > process.env.MAX_POPULATE_DEPTH ) {
     return true;
   }
 
